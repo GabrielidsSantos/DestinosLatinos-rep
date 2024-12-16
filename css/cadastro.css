@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --cor1: #0a1f4e;
+    --cor2: #f54e51;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #feecd4;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+    height: auto;
+    text-align: center;
+}
+
+.topo {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--cor1);
+}
+
+#cadastro {
+    margin-top: 8% !important;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cadastro h2 {
+    text-align: center;
+    color: var(--cor1);
+    font-size: 1.5rem;
+}
+
+#cadastro form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: var(--cor1);
+}
+
+#cadastro form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#cadastro form button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--cor1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#cadastro form button:hover {
+    background-color: var(--cor2);
+}
+
+footer {
+    text-align: center !important;
+    padding: 1rem;
+    background-color: var(--cor2);
+    color: white;
+    font-size: 1rem;
+}
+
+.icons {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade para tablets e smartphones */
+@media (max-width: 990px) {
+    .topo {
+        font-size: 1.5rem;
+        margin: 0.5rem 0;
+    }
+
+    #cadastro {
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    #cadastro h2 {
+        font-size: 1.3rem;
+    }
+
+    #cadastro form label {
+        font-size: 0.9rem;
+    }
+
+    #cadastro form input {
+        padding: 8px;
+    }
+
+    #cadastro form button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .topo {
+        font-size: 2rem;
+    }
+
+    #cadastro {
+        width: 65%;
+        height: 400px;
+        margin-top: 18% !important;
+    }
+
+    #cadastro h2 {
+        font-size: 1.2rem;
+    }
+
+    #cadastro form label {
+        font-size: 0.8rem;
+        margin-bottom: 3%;
+    }
+
+    #cadastro form button {
+        font-size: 0.8rem;
+        padding: 8px;
+        margin-top: 2%;
+    }
+
+    footer {
+        margin-top: 46% !important;
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .rm {
+        display: none;
+    }
+}
