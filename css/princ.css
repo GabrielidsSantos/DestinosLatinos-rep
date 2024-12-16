@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/* Estilos Gerais */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,6 +25,10 @@ body {
     text-align: center;
     margin: 1rem 0;
     font-size: 2rem;
+}
+
+.Turismo_oqueé {
+    margin-top: 20% !important;
 }
 
 /* Textos */
@@ -96,7 +100,8 @@ a:hover{
 }
 
 /* Responsividade */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+
     .topo {
         font-size: 1.5rem;
     }
@@ -111,43 +116,136 @@ a:hover{
     }
 
     p {
-        font-size: 14px;
+        font-size: 1.2rem;
+        text-align: center !important;
     }
 
     iframe {
         display: none; /* Ocultar vídeos */
     }
 
-    .footer {
-        font-size: 12px;
+    img {
+        margin-left: 25% !important;
+    }
+
+    .centralizar_img_h1 {
+     margin-top: 20%;
+      text-align: center;
     }
 
     body {
         overflow-x: hidden;
+        text-align: center !important;
+    }
+
+    .pf {
+        font-size: 1rem !important;
+    }
+
+    .rm {
+        display: none;
+    }
+
+    .Turismo_oqueé {
+     margin-top: 50% !important;
+    }
+
+    .Turismo_importancia {
+        margin-top: 20% !important;
+    }
+
+    .Tusimo_pontos {
+        margin-top: 20% !important;
+    }
+
+    .Turismo_Destinos {
+        margin-top: 40% !important;
+    }
+
+    .p_embaixo_do_table {
+        margin-top: 5% !important;
+    }
+
+    .Primeiro_Destino {
+        margin-top: 60% !important;
+    }
+
+    .p_Destinos {
+        margin-top: 10% !important;
+    }
+
+    .p_Sao_Cristóvao {
+        margin-top: 5% !important;
+    }
+
+    .img_Sao_Cristovao {
+        margin-top: 35% !important;
+        margin-left: 15% !important;
+        margin-bottom: 0% !important;
+    }
+
+    .p_iframe_remover {
+        display: none !important;
+    }
+
+    .Belize {
+        margin-top: -50% !important;
+    }
+
+    .p_Belize {
+        margin-top: -30% !important;
+    }
+
+    .img_Belize {
+        margin-left: 15% !important;
+    }
+
+    .El_Salvador {
+        margin-top: -70% !important;
+    }
+
+    .p_El_Salvador {
+        margin-top: -40% !important;
+    }
+
+    .img_El_Salvador{
+        margin-left: 15% !important;
+        margin-top: -10% !important;
+    }
+
+    .Cidade_Mexico {
+        margin-top: -80% !important;
+    }
+
+    .p_Cidade_Mexico {
+        margin-top: -45% !important;
+    }
+
+    .img_Cidade_Mexico{
+        margin-left: 15% !important;
+        margin-top: -10% !important;
+    }
+
+    .Brasil {
+        margin-top: -90% !important;
+    }
+
+    .p_Brasil {
+        margin-top: -55% !important;
+    }
+
+    .img_Brasil{
+        margin-left: 15% !important;
+        margin-top: 20% !important;
+    }
+
+    .Glossario {
+        margin-top: -90% !important;
+        margin-bottom: 50%;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .topo {
-        font-size: 1.2rem;
-    }
 
-    h1, h2, h3 {
-        font-size: 1.2rem;
-    }
 
-    p {
-        font-size: 12px;
-    }
-
-    .navbar-nav {
-        gap: 0.3rem;
-    }
-
-    .footer {
-        padding: 1rem;
-        text-align: center;
-    }
-}
 
 
